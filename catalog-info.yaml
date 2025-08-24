@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible_test
+  description: Not AI generated ansible_test
+  annotations:
+    github.com/project-slug: KeertiPusarlaa/ansible_test
+spec:
+  type: service
+  owner: default
+  lifecycle: production
